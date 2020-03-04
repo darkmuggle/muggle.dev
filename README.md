@@ -4,7 +4,7 @@ Yup, this site thinks much of itself.
 
 # Spells, Charms and Hexes
 
-Such sundries, may or may not be, forthcoming.
+[Rootless Podman](guide_podman.md)
 
 # muggle.dev?
 
