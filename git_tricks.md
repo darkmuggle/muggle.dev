@@ -4,7 +4,13 @@
 
 Origin is the base name that denotes the starting position of git. But I prefer to use `upstream` and then `me`; upstream refers to the origin and me refers to the locations where I'm stuffing my work.
 
-That give the command `git remote rename origin upstream`
+Hence my alias:
+```
+[alias]
+    upstream = remote rename origin upstream
+```
+
+Where running `git upstream` renames `origin` for me.
 
 ### pruning merged
 
@@ -16,7 +22,7 @@ I found this gem Googling, but is really useful for cleaning my local branches u
 
 ### recommiting
 
-The standard method of updating a commit during PR reviews is to use `--amend`. But I like something more flexibale:
+The standard method of updating a commit during PR reviews is to use `--amend`. But I like something more flexible:
 
 ```
 [alias]
@@ -26,13 +32,13 @@ The standard method of updating a commit during PR reviews is to use `--amend`. 
 
 When I run `git recom` it uses the previous commit message, while `git recommit` allows me update the message. The best part is even though the `-a` (all) is there, using `git recom <file>` will only change the file in that commit.
 
-And unlike `--amend`'s behavior using the previous date, these commands use the ammended date stamp.
+And unlike `--amend`'s behavior using the previous date, these commands use the amended date stamp.
 
 _Here be dragons_: The danger to these commands is that you can accidentally update an commit you are not intending to change.
 
 ### the long weekend
 
-After a long weekend, time off, or night of indulgent potions, or even losing track of which branch. This little spell I found thanks to divination on Google (my apologies for not including attribution):
+After a long weekend, time off, or night of indulgent potions, or even losing track of which branch, finding out what branch was last worked on can be a pain. This little spell I found thanks to divination on Google (my apologies for not including attribution):
 
 ```
 [alias]
