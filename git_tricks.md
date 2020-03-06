@@ -2,7 +2,7 @@
 
 ### using `upstream` instead of `origin`
 
-Origin is the base name that denotes the starting position of git. But I prefer to use `upstream` and then `me`; upstream refers to the origin and me refers to the locations where I'm stuffing my work.
+Origin is the base name that denotes the starting position of git. But I prefer to use `upstream` because its more descriptive.
 
 Hence my alias:
 ```
