@@ -5,6 +5,7 @@ Yup, this site thinks much of itself.
 ## Spells, Charms and Hexes
 
 - 2020.03.04 [Rootless Podman](guide_podman.md)
+- 2020.05.19 [CoreOS Assembler in a Pod](guide_cosa.md)
 
 Regularly Updates:
 - [Git Tricks](git_tricks.md)
